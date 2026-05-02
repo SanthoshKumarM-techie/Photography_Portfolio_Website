@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import About from './About'
 import Services from './Services'
+import Testimonials from './Testimonials'
 
 function App() {
   useEffect(() => {
@@ -28,7 +29,8 @@ function App() {
 
   return (
     <div>
-      <Services />
+
+      <Testimonials />
     </div>
   )
 }
