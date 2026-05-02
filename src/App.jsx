@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import About from './About'
 import Services from './Services'
 import Testimonials from './Testimonials'
+import Contact from './Contact'
 
 function App() {
   useEffect(() => {
@@ -29,8 +30,7 @@ function App() {
 
   return (
     <div>
-
-      <Testimonials />
+      <Contact/>
     </div>
   )
 }
